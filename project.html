@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniket Kumar | DevOps Engineer Portfolio</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E8B57);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2em;
+      color: #2E8B57;
+    }
+
+    p {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+    }
+
+    /* Skills and Projects layout */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Aniket Kumar</h1>
+    <p>DevOps Engineer | Automation | Cloud | CI/CD</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am <strong>Aniket Kumar</strong>, a DevOps Engineer passionate about automation, cloud infrastructure, and building CI/CD pipelines. I focus on creating reliable and scalable systems while improving software delivery processes.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+      <div class="card">Docker & Kubernetes</div>
+      <div class="card">CI/CD (Jenkins, GitHub Actions)</div>
+      <div class="card">AWS / Azure / GCP</div>
+      <div class="card">Terraform & Ansible</div>
+      <div class="card">Monitoring (Prometheus, Grafana)</div>
+      <div class="card">Linux & Shell Scripting</div>
+      <div class="card">Git & Version Control</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Automated CI/CD Pipeline</h3>
+        <p>Designed a CI/CD pipeline using Jenkins and Docker to deploy applications automatically to cloud servers.</p>
+      </div>
+      <div class="card">
+        <h3>Infrastructure as Code</h3>
+        <p>Built AWS infrastructure using Terraform and Ansible for scalable and repeatable deployments.</p>
+      </div>
+      <div class="card">
+        <h3>Monitoring Dashboard</h3>
+        <p>Implemented monitoring with Prometheus and Grafana to track system performance and receive alerts.</p>
+      </div>
+      <div class="card">
+        <h3>Containerized Web App</h3>
+        <p>Created a containerized portfolio application using Docker and deployed it to AWS ECS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:aniketkrsingh100@gmail.com">aniketkrsingh100@gmail.com</a></p>
+    <p>Phone: +91 9905624098</p>
+    <p>Connect with me on <a href="#">GitHub</a> and <a href="#">LinkedIn</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Aniket Kumar. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
