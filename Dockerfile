@@ -5,8 +5,9 @@ FROM nginx:latest
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your portfolio files to the Nginx html directory
-COPY . /usr/share/nginx/html
+COPY  project.html /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
+
 
